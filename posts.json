@@ -1,0 +1,30 @@
+[
+    {
+        "id": 3,
+        "author": "Svea + Chat GPT",
+        "title": "Unraveling the Power of Python: A Comprehensive Test Journey",
+        "content": "Welcome, Python enthusiasts! Today, we embark on an exciting journey through the world of Python programming. Whether you're a seasoned developer or just starting out, Python continues to captivate us with its simplicity, versatility, and power.\r\n\r\nIn this comprehensive test article, we'll explore various facets of Python, from its fundamental concepts to its advanced capabilities, putting your skills to the test along the way. Let's dive in!\r\n\r\nTest 1: Python Basics\r\nWhat is the output of the following code snippet?\r\npython\r\nCopy code\r\nx = 5\r\ny = 2\r\nprint(x ** y)\r\nExplain the difference between == and is operators in Python.\r\nWrite a Python function to check if a given number is prime.\r\nTest 2: Data Structures and Algorithms\r\nImplement a stack data structure in Python and demonstrate its usage with an example.\r\nWrite a Python function to reverse a linked list.\r\nDiscuss the time complexity of searching for an element in a list using linear search versus binary search.\r\nTest 3: Object-Oriented Programming (OOP)\r\nDefine a class Rectangle with attributes length and width, and methods to calculate its area and perimeter.\r\nExplain the concept of inheritance in Python with a practical example.\r\nDescribe the purpose of __init__ method in a Python class.\r\nTest 4: File Handling and Exception Handling\r\nHow do you open and read a file in Python? Provide an example.\r\nDiscuss the importance of exception handling in Python programming and demonstrate a try-except block.\r\nWrite a Python program to copy the contents of one file to another.\r\nTest 5: Advanced Python Concepts\r\nWhat is a generator in Python? How does it differ from a regular function?\r\nDiscuss the role of decorators in Python and provide a use case where decorators are useful.\r\nExplain the concept of virtual environments in Python development.\r\nCongratulations on completing the Python test journey! We hope this article has challenged your skills and deepened your understanding of Python programming. Remember, practice makes perfect, so keep coding and exploring the endless possibilities Python has to offer.\r\n\r\nHappy coding! \ud83d\udc0d\u2728\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+        "likes": 0
+    },
+    {
+        "id": 4,
+        "author": "Svea + Chat GPT",
+        "title": "Python Bootcamp Chronicles: A Brief Prelude",
+        "content": "Greetings, fellow Python adventurers! Today marks the inception of my journey through the vibrant landscape of Python programming, courtesy of a thrilling Python bootcamp experience.\r\n\r\nFrom the moment I stepped into the bustling classroom, excitement coursed through my veins, mingling with a hint of trepidation. Little did I know, this brief yet intense immersion would sculpt my path in the world of coding.\r\n\r\nIn the coming days, I'll share snippets of my escapades, from conquering the basics to navigating the labyrinth of algorithms. Join me as I unravel the mysteries of Python, one byte-sized adventure at a time.\r\n\r\nStay tuned for more tales from the Python bootcamp trenches! \ud83d\udc0d\u2728",
+        "likes": 1
+    },
+    {
+        "id": 5,
+        "author": "Svea + Chat GPT",
+        "title": "Sphinx Cats: The Purrfect Mystique",
+        "content": "Sphinx cats, with their hairless bodies and captivating gaze, embody a unique charm that sets them apart. Despite their enigmatic appearance, they're known for their playful and affectionate nature, making them delightful companions for those seeking a feline friend. With minimal grooming needs and a penchant for companionship, Sphinx cats offer a one-of-a-kind experience that's both captivating and rewarding.",
+        "likes": 2
+    },
+    {
+        "id": 6,
+        "author": "Svea",
+        "title": "Meet the Tolling Doodle: Your Perfect Companion",
+        "content": "Tolling Doodles, a mix of Nova Scotia Duck Tolling Retriever and Poodle, offer the best of both breeds. With their friendly nature, intelligence, and low-shedding coats, they make ideal companions for active households. Easy to groom and eager to please, Tolling Doodles bring joy and laughter to every moment. Embrace the love of a Tolling Doodle and enrich your life with their charm and affection.",
+        "likes": 1
+    }
+]

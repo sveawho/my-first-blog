@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Flask Blog</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Honk:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Welcome to My Flask Blog!</h1>
+
+    <!-- Iterate over each post -->
+    {% for post in posts %}
+    <div class="post">
+        <h2>{{ post.title }}</h2>
+        <p class="post-details">Written by {{ post.author }}</p>
+        <p>{{ post.content }}</p>
+        <!-- Action buttons for each post -->
+        <div class="action-container">
+            <div class="left-buttons">
+                <!-- Update button -->
+                <a href="/update/{{ post.id }}"><button class="update-button">Update 🚀</button></a>
+                <!-- Delete button -->
+                <form action="{{ url_for('delete', post_id=post.id) }}" method="POST" onsubmit="return confirm('Are you sure you want to 🗑 this post?');">
+                    <button class="delete-button" type="submit">Delete 🗑️</button>
+                </form>
+            </div>
+            <!-- Like button and counter -->
+            <div>
+                <form action="/like/{{ post.id }}" method="POST">
+                    <button class="like-button" type="submit">❤️</button>
+                    <span class="like-counter">{{ post.likes | default(0) }}</span>
+                </form>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+
+    <!-- Link to add a new post -->
+    <a href="/add" class="add-post-button">Add New Post  🥳 </a>
+</body>
+</html>
