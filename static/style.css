@@ -118,23 +118,6 @@ h1 {
     box-sizing: border-box;
 }
 
-.add-post-button {
-    display: inline-block;
-    font-family: Arial;
-    background-color: #FFFFC8;
-    color: #FF3EAD;
-    border: 2px solid #FF3EAD;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.add-post-button:hover {
-    background-color: #FFC8C7;
-}
-
 /* Style for content textarea */
 #content {
     width: 100%;
